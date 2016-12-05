@@ -20,7 +20,7 @@ class Postgis22Psql95 < Formula
 
   depends_on "pkg-config" => :build
   depends_on "gpp" => :build
-  depends_on "postgresql"
+  depends_on "postgresql95"
   depends_on "proj"
   depends_on "geos"
 
